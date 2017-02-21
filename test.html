@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="test.css"/>
+		<title>响应式导航</title>
+	</head>
+	<body>
+		
+		<!--顶部导航条-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="" class="navbar-brand logo"><img src="img/logo.jpg"/></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right" style="margin-top: 0">
+					<li class="active"><a href="test.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+					<li><a href="information.html"><span class="glyphicon glyphicon-list"></span> 咨询</a></li>
+					<li><a href="case.html"><span class="glyphicon glyphicon-fire"></span> 案例</a></li>
+					<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> 关于</a></li>
+				</ul>
+				</div>
+			</div>
+		</nav> 
+		<!--顶部导航条结束-->
+		<!--图片轮播器-->
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/无标题.png"/ alt="第一张">
+				</div>
+				<div class="item">
+					<img src="img/无标题2.png"/ alt="第一张">
+				</div>
+				<div class="item">
+					<img src="img/无标题3.png"/ alt="第一张">
+				</div>
+            	<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+            		<span class="glyphicon glyphicon-chevron-left"></span>
+            	</a>
+            	<a href="#myCarousel" data-slide="next" class="carousel-control right">
+            		<span class="glyphicon glyphicon-chevron-right"></span>
+            	</a>
+			</div>
+		</div>
+		<!--图片轮播器结束-->
+		
+		
+		<div class="tab1">
+			<div class="container">
+				<h2 class="tab-h2">{这里是模拟标题}</h2>
+				<p class="tab-p">这里是模拟内容！这里是模拟内容！这里是模拟内容！这里是模拟内容！</p>
+				<div class="row">
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left" >
+								<a href="#"><img class="media-object" src="img/png1.png" alt=""/></a>
+							</div>
+							<div class="media-body col">
+								<h4 class="media-heading">标题内容</h4>
+								<p class="text-muted">贬低他人的内容</p>
+								<p>我们的内容</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img class="media-object center-block" src="img/png2.png" alt=""/></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">标题内容</h4>
+								<p class="text-muted">贬低他人的内容</p>
+								<p>赞美我们的内容</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img class="media-object" src="img/png3.png" alt=""/></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">标题内容</h4>
+								<p class="text-muted">贬低他人的内容</p>
+								<p>赞美我们的内容</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img class="media-object" src="img/png4.png" alt=""/></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">标题内容</h4>
+								<p class="text-muted">贬低他人的内容</p>
+								<p>赞美我们的内容</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--img-responsive自适应调整图片大小-->
+		<div class="tab2"> 
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 tab2-img">
+						<img src="img/png1.png" class="img-responsive center-block auto" alt=""/>
+					</div>
+					<div class="col-md-6 col-sm-6 text tab2-text">
+						<h3>练习用的大题目</h3>
+						<p>这里是内容！这里是内容！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="tab3"> 
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<img src="img/png2.png" class="img-responsive center-block auto" alt=""/>
+					</div>
+					<div class="col-md-6 col-sm-6 text">
+						<h3>练习用的大题目</h3>
+						<p>这里是内容！这里是内容！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--底部版权区域-->
+		<footer id="footer">
+			<div class="container">
+				<p>此网站为踏法练习用</p>
+				<p>此网站为练习bootstrap所用  powered by bootstrap</p>
+			</div>
+		</footer>
+		
+		
+		
+		
+		
+	</body>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$('#myCarousel').carousel({
+			//图片轮播器自动轮播 3秒
+			interval:3000,
+			//鼠标悬停图片时图片不轮播
+			pause:'hover',
+		});
+		
+//		//图片轮播器左右箭头垂直居中
+//		$(function(){
+//			$('.carousel-control').css('line-height',$('.carousel-inner img').height()+'px');
+//			$(window).resize(function(){
+//				var $height = $('.carousel-inner img').eq(0).height()||
+//							  $('.carousel-inner img').eq(1).height()||
+//							  $('.carousel-inner img').eq(2).height();
+//				$('.carousel-control').css('line-height',$height+'px');
+//			});
+//		});
+//		中间文字居中
+		$('.text').eq(0).css('margin-top',($('.auto').eq(0).height()-$('.text').eq(0).height())/2+'px');
+		 $(window).resize(function(){
+		 	$('.text').eq(0).css('margin-top',($('.auto').eq(0).height()-$('.text').eq(0).height())/2+'px');
+		 });
+		 $('.text').eq(1).css('margin-top',($('.auto').eq(1).height()-$('.text').eq(1).height())/2+'px');
+		 $(window).resize(function(){
+		 	$('.text').eq(1).css('margin-top',($('.auto').eq(1).height()-$('.text').eq(1).height())/2+'px');
+		 });
+	</script>
+</html>
